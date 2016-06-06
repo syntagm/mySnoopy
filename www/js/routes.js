@@ -10,7 +10,7 @@ angular.module('app.routes', [])
     
   
 
-      .state('my.home', {
+      .state('mySnoopy.home', {
     url: '/page1',
     views: {
       'side-menu21': {
@@ -20,7 +20,7 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('my.gallery', {
+  .state('mySnoopy.gallery', {
     url: '/page2',
     views: {
       'side-menu21': {
@@ -30,7 +30,7 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('my.bio', {
+  .state('mySnoopy.bio', {
     url: '/page3',
     views: {
       'side-menu21': {
@@ -40,9 +40,9 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('my', {
+  .state('mySnoopy', {
     url: '/side-menu21',
-    templateUrl: 'templates/my.html',
+    templateUrl: 'templates/mySnoopy.html',
     abstract:true
   })
 

@@ -7,7 +7,7 @@ $stable:                          #f8f8f8 !default;
 $positive:                        #387ef5 !default;
 $calm:                            #11c1f3 !default;
 $balanced:                        #33cd5f !default;
-$energized:                       #e7c670  !default;
+$energized:                       #ffc900 !default;
 $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
@@ -16,8 +16,9 @@ $dark:                            #444 !default;
 // Base
 // -------------------------------
 
-$font-family-sans-serif:          "Helvetica Neue", "Roboto", "Segoe UI", sans-serif !default;
-$font-family-light-sans-serif:    "HelveticaNeue-Light", "Roboto-Light", "Segoe UI-Light", sans-serif-light !default;
+$font-family-sans-serif:           '-apple-system', "Helvetica Neue", "Roboto", "Segoe UI", sans-serif !default;
+
+$font-family-light-sans-serif:    '-apple-system', "HelveticaNeue-Light", "Roboto-Light", "Segoe UI-Light", sans-serif-light !default;
 $font-family-serif:               serif !default;
 $font-family-monospace:           monospace !default;
 
@@ -69,7 +70,7 @@ $scroll-refresh-icon-color:       #666666 !default;
 $button-color:                    #222 !default;
 $button-block-margin:             10px !default;
 $button-clear-padding:            6px !default;
-$button-border-radius:            2px !default;
+$button-border-radius:            4px !default;
 $button-border-width:             1px !default;
 
 $button-font-size:                16px !default;
@@ -548,8 +549,8 @@ $range-default-track-bg:          #ccc !default;
 // Menus
 // -------------------------------
 
-$menu-bg:                         #e7c670 !default;
-$menu-width:                      200px !default;
+$menu-bg:                         #fff !default;
+$menu-width:                      275px !default;
 $menu-animation-speed:            200ms !default;
 
 $menu-side-shadow:                -1px 0px 2px rgba(0, 0, 0, 0.2), 1px 0px 2px rgba(0,0,0,0.2) !default;
